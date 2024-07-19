@@ -15,7 +15,12 @@ body {
 }
 /*header*/
 header {
-    background-color: red;
+    background-color: white;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px black;
 }  
 /*main*/
 main {
@@ -37,10 +42,14 @@ footer {
 .protest-revolution-logo {
     font-family: "Protest Revolution", sans-serif;
     font-weight: 600;
-    font-size: 10vh;
+    font-size: 10;
     font-style: normal;
   }
 /*removes underline from anchor element*/
 .a-rm-underline {
     text-decoration: none;
   }
+/*bullet point removal from list*/
+li {
+    list-style: none;
+}
