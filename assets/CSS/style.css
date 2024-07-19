@@ -7,13 +7,17 @@
 
 /*header*/
 header {
-    background-color: red; 
+    background-color: red;
 }  
 /*main*/
 main {
     background-color: blue;
+    display: flex;
+    flex-direction: column;
+    color: black;
 }
 /*footer*/
 footer {
     background-color: green;
+    flex: 1 0 auto;
 }
